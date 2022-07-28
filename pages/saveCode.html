@@ -7,11 +7,12 @@
   <body>
     <section class="container">
       <h1>Save Code</h1>
-      <form class="saveCodeForm" action="">
+      <form id="saveCodeForm" action="">
         <input id="codeTitle" type="text" maxlength="200" required placeholder="Title">
-        <textarea id="codeSnippet" placeholder="Your code snippet" required></textarea>
-        <button id="saveButton" type="submit">Done</button>
+        <textarea id="codeSnippet" rows="22" placeholder="Your code snippet" required></textarea>
+        <button form="saveCodeForm" id="saveButton" type="submit">Done</button>
       </form>
     </section>
+    <script src="/scripts/saveCode.js"></script>
   </body>
 </html>

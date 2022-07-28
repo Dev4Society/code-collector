@@ -1,6 +1,6 @@
 {
   "name": "Code Collector",
-  "description": "Save and customize code snippets from every website to your Code Pocket",
+  "description": "Save and customize code snippets from every website",
   "version": "0.1.0",
   "manifest_version": 3,
   "author": "Oscar Gonzalez",
@@ -10,7 +10,7 @@
   "content_scripts": [
     {
       "matches": ["<all_urls>"],
-      "css": ["/styles/styles.css", "/styles/saveCode.css"],
+      "css": ["/styles/saveCode.css"],
       "js": ["/scripts/content.js"],
       "run_at": "document_end"
     }
